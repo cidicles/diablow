@@ -1,0 +1,456 @@
+{
+  "frames": {
+    "skeleton/death/000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/001": {
+      "frame": {
+        "x": 409,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/002": {
+      "frame": {
+        "x": 818,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/003": {
+      "frame": {
+        "x": 1227,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/004": {
+      "frame": {
+        "x": 0,
+        "y": 443,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/005": {
+      "frame": {
+        "x": 409,
+        "y": 443,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/006": {
+      "frame": {
+        "x": 818,
+        "y": 443,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/007": {
+      "frame": {
+        "x": 1227,
+        "y": 443,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/008": {
+      "frame": {
+        "x": 0,
+        "y": 886,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/009": {
+      "frame": {
+        "x": 409,
+        "y": 886,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/010": {
+      "frame": {
+        "x": 818,
+        "y": 886,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/011": {
+      "frame": {
+        "x": 1227,
+        "y": 886,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/012": {
+      "frame": {
+        "x": 0,
+        "y": 1329,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/013": {
+      "frame": {
+        "x": 409,
+        "y": 1329,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/014": {
+      "frame": {
+        "x": 818,
+        "y": 1329,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    },
+    "skeleton/death/015": {
+      "frame": {
+        "x": 1227,
+        "y": 1329,
+        "w": 407,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 407,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 407,
+        "h": 441
+      },
+      "pivot": {
+        "x": 0.457,
+        "y": 0.9303
+      }
+    }
+  },
+  "animations": {
+    "skeleton/death": [
+      "skeleton/death/000",
+      "skeleton/death/001",
+      "skeleton/death/002",
+      "skeleton/death/003",
+      "skeleton/death/004",
+      "skeleton/death/005",
+      "skeleton/death/006",
+      "skeleton/death/007",
+      "skeleton/death/008",
+      "skeleton/death/009",
+      "skeleton/death/010",
+      "skeleton/death/011",
+      "skeleton/death/012",
+      "skeleton/death/013",
+      "skeleton/death/014",
+      "skeleton/death/015"
+    ]
+  },
+  "meta": {
+    "app": "diablow scripts/generate-sprites.js",
+    "image": "death.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1634,
+      "h": 1770
+    },
+    "scale": "1",
+    "fps": 12,
+    "loop": false,
+    "character": "skeleton",
+    "animation": "death",
+    "charHeight": 256,
+    "key": "green",
+    "matte": "chroma",
+    "source": {
+      "video": "assets\\sprites\\skeleton\\_work\\death\\video.mp4",
+      "fps": 24,
+      "frames": [
+        22,
+        26,
+        31,
+        35,
+        40,
+        44,
+        48,
+        53,
+        57,
+        62,
+        66,
+        70,
+        75,
+        79,
+        84,
+        88
+      ],
+      "seconds": 2.8,
+      "speed": 2.2,
+      "mode": "one-shot"
+    },
+    "request": {
+      "model": "kling-2.5-turbo-pro",
+      "key": "green",
+      "duration": 5,
+      "prompt": "The skeleton shudders, its bones come apart and it collapses into a heap of dry bones on the spot, sword and shield clattering down beside it. The bones stay crisp and solid the whole time: no smoke, no dust, no mist, no gas, no dissolving. Smooth 2D game sprite animation; the character's design, colors and art style stay exactly the same. The camera is completely static and locked off: no camera movement, no zoom, no pan. The character stays centered on the same spot and never leaves the frame. The background stays a perfectly flat, uniform, solid pure green (#00FF00) for the whole clip: no floor, no ground shadow, no lighting change, no scenery, no particles."
+    }
+  }
+}

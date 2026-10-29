@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sprite Studio · diablow</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">Sprite Studio <span>diablow</span></div>
+  <div id="jobIndicator" class="job-indicator" hidden></div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <button id="newSpriteBtn" class="btn primary block">+ New sprite</button>
+    <nav id="spriteList" class="sprite-list" aria-label="Sprites"></nav>
+  </aside>
+
+  <main class="main">
+    <section id="emptyView" class="view empty-view">
+      <h1>Pick a sprite or make a new one</h1>
+      <p class="hint">Describe a character, choose animations, review the result on a few backgrounds, then export the sheets you like.</p>
+    </section>
+
+    <section id="newView" class="view" hidden>
+      <form id="newForm" class="card" autocomplete="off">
+        <h1 id="newTitle">New sprite</h1>
+        <div class="row">
+          <label>Name <input name="name" required maxlength="80" placeholder="Plague Lich"></label>
+          <label>Id <input name="id" required pattern="[a-z0-9][a-z0-9_\-]*" maxlength="41" placeholder="plague_lich"></label>
+        </div>
+        <label>Character
+          <textarea name="subject" rows="4" required placeholder="a gaunt lich in rotting purple robes, holding a bone staff topped with a green flame"></textarea>
+        </label>
+        <div class="check-row">
+          <label class="check"><input type="checkbox" name="useStyle" checked> Append the house style</label>
+          <button type="button" class="link" id="toggleStyle">show</button>
+        </div>
+        <p id="styleText" class="hint mono" hidden></p>
+
+        <h2>Animations</h2>
+        <div id="animPresets" class="anim-presets"></div>
+
+        <div class="row">
+          <label>Video model <select name="model" id="modelSelect"></select></label>
+        </div>
+        <div class="form-actions">
+          <p id="newError" class="error" hidden></p>
+          <button type="button" class="btn" id="cancelNewBtn">Cancel</button>
+          <button type="submit" class="btn primary">Save &amp; review cost</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="spriteView" class="view" hidden>
+      <div class="sprite-head">
+        <div class="sprite-title">
+          <h1 id="spriteName"></h1>
+          <p id="spritePrompt" class="hint clamp"></p>
+        </div>
+        <div class="head-actions">
+          <button id="editSpriteBtn" class="btn">Edit</button>
+          <button id="generateMissingBtn" class="btn primary">Generate missing</button>
+        </div>
+      </div>
+
+      <div class="keyframe-row">
+        <figure class="keyframe">
+          <img id="keyframeImg" alt="Keyframe cutout">
+          <figcaption>Keyframe</figcaption>
+        </figure>
+        <div class="variants-wrap">
+          <p class="hint" id="variantsHint"></p>
+          <div id="variants" class="variants"></div>
+        </div>
+      </div>
+
+      <div id="animTabs" class="tabs" role="tablist"></div>
+
+      <div class="review">
+        <div class="stage-wrap">
+          <canvas id="stage"></canvas>
+          <div class="player-bar">
+            <button id="playBtn" class="btn icon" title="Play / pause (space)">❚❚</button>
+            <button id="prevBtn" class="btn icon" title="Previous frame (←)">‹</button>
+            <button id="nextBtn" class="btn icon" title="Next frame (→)">›</button>
+            <input id="scrub" type="range" min="0" max="0" value="0" aria-label="Frame">
+            <span id="frameLabel" class="mono"></span>
+          </div>
+          <div class="player-bar wrap">
+            <label>Speed <input id="fpsInput" type="number" min="1" max="60" step="1"> fps</label>
+            <label>Zoom
+              <select id="zoomSelect"><option value="fit">Fit</option><option value="1">1×</option><option value="2">2×</option></select>
+            </label>
+            <label>Background
+              <select id="bgSelect">
+                <option value="dungeon">Dungeon</option>
+                <option value="checker">Checker</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="magenta">Magenta (fringe check)</option>
+              </select>
+            </label>
+            <label class="check"><input type="checkbox" id="pivotToggle"> Pivot</label>
+          </div>
+        </div>
+
+        <div class="anim-side">
+          <div id="animEmpty" class="card empty-anim" hidden>
+            <p>This animation hasn't been generated yet.</p>
+            <button id="generateAnimBtn" class="btn primary">Generate</button>
+          </div>
+          <div id="animDetails">
+            <dl id="animMeta" class="meta"></dl>
+            <div class="actions">
+              <button id="exportBtn" class="btn primary">Export</button>
+              <span id="exportStatus" class="hint"></span>
+            </div>
+            <details class="tweak">
+              <summary>Rebuild sheet <span class="free">free</span></summary>
+              <p class="hint">Re-samples and re-mattes the existing video. No credits.</p>
+              <div class="row small">
+                <label>Frames <input id="rbFrames" type="number" min="1" max="64"></label>
+                <label>FPS <input id="rbFps" type="number" min="1" max="60"></label>
+                <label>Height px <input id="rbHeight" type="number" min="32" max="1024" placeholder="256"></label>
+                <label>Despeckle px <input id="rbDespeckle" type="number" min="0" max="10000" placeholder="auto"></label>
+              </div>
+              <button id="rebuildBtn" class="btn">Rebuild</button>
+            </details>
+            <details class="tweak">
+              <summary>Regenerate <span class="paid">credits</span></summary>
+              <p class="hint">Makes a new video from the same keyframe. The current sheet is replaced when it finishes.</p>
+              <button id="regenVideoBtn" class="btn">New video…</button>
+            </details>
+            <details class="tweak">
+              <summary>Source video</summary>
+              <video id="sourceVideo" controls loop muted playsinline></video>
+            </details>
+            <h3 class="sheet-title">Sheet</h3>
+            <img id="sheetImg" class="sheet" alt="Sprite sheet">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="jobs-panel">
+    <h2>Jobs</h2>
+    <div id="jobList" class="job-list"><p class="hint">No jobs yet.</p></div>
+    <pre id="jobLog" class="job-log" hidden></pre>
+  </aside>
+</div>
+
+<dialog id="confirmDialog">
+  <form method="dialog">
+    <h2 id="confirmTitle">Generate?</h2>
+    <p id="confirmCredits" class="credits"></p>
+    <pre id="confirmPlan" class="plan"></pre>
+    <div class="form-actions">
+      <button value="cancel" class="btn">Cancel</button>
+      <button value="ok" class="btn primary" id="confirmOk">Generate</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="player.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,456 @@
+{
+  "frames": {
+    "warrior/idle/000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/001": {
+      "frame": {
+        "x": 198,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/002": {
+      "frame": {
+        "x": 396,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/003": {
+      "frame": {
+        "x": 594,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/004": {
+      "frame": {
+        "x": 0,
+        "y": 280,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/005": {
+      "frame": {
+        "x": 198,
+        "y": 280,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/006": {
+      "frame": {
+        "x": 396,
+        "y": 280,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/007": {
+      "frame": {
+        "x": 594,
+        "y": 280,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/008": {
+      "frame": {
+        "x": 0,
+        "y": 560,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/009": {
+      "frame": {
+        "x": 198,
+        "y": 560,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/010": {
+      "frame": {
+        "x": 396,
+        "y": 560,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/011": {
+      "frame": {
+        "x": 594,
+        "y": 560,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/012": {
+      "frame": {
+        "x": 0,
+        "y": 840,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/013": {
+      "frame": {
+        "x": 198,
+        "y": 840,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/014": {
+      "frame": {
+        "x": 396,
+        "y": 840,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    },
+    "warrior/idle/015": {
+      "frame": {
+        "x": 594,
+        "y": 840,
+        "w": 196,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 278
+      },
+      "pivot": {
+        "x": 0.4989,
+        "y": 0.971
+      }
+    }
+  },
+  "animations": {
+    "warrior/idle": [
+      "warrior/idle/000",
+      "warrior/idle/001",
+      "warrior/idle/002",
+      "warrior/idle/003",
+      "warrior/idle/004",
+      "warrior/idle/005",
+      "warrior/idle/006",
+      "warrior/idle/007",
+      "warrior/idle/008",
+      "warrior/idle/009",
+      "warrior/idle/010",
+      "warrior/idle/011",
+      "warrior/idle/012",
+      "warrior/idle/013",
+      "warrior/idle/014",
+      "warrior/idle/015"
+    ]
+  },
+  "meta": {
+    "app": "diablow scripts/generate-sprites.js",
+    "image": "idle.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 790,
+      "h": 1118
+    },
+    "scale": "1",
+    "fps": 8,
+    "loop": true,
+    "character": "warrior",
+    "animation": "idle",
+    "charHeight": 256,
+    "key": "green",
+    "matte": "chroma",
+    "source": {
+      "video": "assets\\sprites\\warrior\\_work\\idle\\video.mp4",
+      "fps": 24,
+      "frames": [
+        0,
+        7,
+        15,
+        22,
+        30,
+        37,
+        45,
+        52,
+        60,
+        68,
+        75,
+        83,
+        90,
+        98,
+        105,
+        113
+      ],
+      "seconds": 5,
+      "speed": 2.5,
+      "mode": "return"
+    },
+    "request": {
+      "model": "kling-2.5-turbo-pro",
+      "key": "green",
+      "duration": 5,
+      "prompt": "The warrior breathes slowly and shifts their weight in a battle-ready stance, broadsword held low, feet planted in place. Smooth 2D game sprite animation; the character's design, colors and art style stay exactly the same. The camera is completely static and locked off: no camera movement, no zoom, no pan. The character stays centered on the same spot and never leaves the frame. The background stays a perfectly flat, uniform, solid pure green (#00FF00) for the whole clip: no floor, no ground shadow, no lighting change, no scenery, no particles."
+    }
+  }
+}

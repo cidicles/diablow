@@ -1,0 +1,11 @@
+{
+  "id": "ghoul",
+  "name": "Ghoul",
+  "subject": "a feral hunched ghoul with grey-green rotting flesh, glowing yellow eyes, long clawed arms and tattered burial rags",
+  "prompt": "a feral hunched ghoul with grey-green rotting flesh, glowing yellow eyes, long clawed arms and tattered burial rags, dark gothic fantasy action RPG, Diablo II style hand-painted 2D game sprite, three-quarter isometric view from slightly above, facing the lower left, full body from head to toe, single character centered in frame, plain flat light grey studio background, crisp readable silhouette, even lighting, no ground shadow, no text, no watermark --no floor, ground shadow, scenery, text, cropped, photorealistic, photo, 3d render",
+  "adjust": { "brightness": 1.28, "saturation": 1.12 },
+  "animations": [
+    { "name": "walk", "motion": "The ghoul lopes forward in place as if on a treadmill, hunched low, claws swinging, ragged and feral; it does not travel across the frame.", "frames": 12, "fps": 14, "cycle": true, "minCycle": 0.5, "maxCycle": 2.0, "scale": 0.6 },
+    { "name": "death", "motion": "The ghoul shrieks, clutches its chest, staggers and collapses to the ground on the spot, lying still.", "frames": 12, "fps": 12, "cycle": false, "scale": 0.55, "trimStart": 1.3 }
+  ]
+}

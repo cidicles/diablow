@@ -1,0 +1,454 @@
+{
+  "frames": {
+    "engineer/idle/000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/001": {
+      "frame": {
+        "x": 182,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/002": {
+      "frame": {
+        "x": 364,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/003": {
+      "frame": {
+        "x": 546,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/004": {
+      "frame": {
+        "x": 0,
+        "y": 276,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/005": {
+      "frame": {
+        "x": 182,
+        "y": 276,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/006": {
+      "frame": {
+        "x": 364,
+        "y": 276,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/007": {
+      "frame": {
+        "x": 546,
+        "y": 276,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/008": {
+      "frame": {
+        "x": 0,
+        "y": 552,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/009": {
+      "frame": {
+        "x": 182,
+        "y": 552,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/010": {
+      "frame": {
+        "x": 364,
+        "y": 552,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/011": {
+      "frame": {
+        "x": 546,
+        "y": 552,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/012": {
+      "frame": {
+        "x": 0,
+        "y": 828,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/013": {
+      "frame": {
+        "x": 182,
+        "y": 828,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/014": {
+      "frame": {
+        "x": 364,
+        "y": 828,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    },
+    "engineer/idle/015": {
+      "frame": {
+        "x": 546,
+        "y": 828,
+        "w": 180,
+        "h": 274
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 180,
+        "h": 274
+      },
+      "sourceSize": {
+        "w": 180,
+        "h": 274
+      },
+      "pivot": {
+        "x": 0.5006,
+        "y": 0.9731
+      }
+    }
+  },
+  "animations": {
+    "engineer/idle": [
+      "engineer/idle/000",
+      "engineer/idle/001",
+      "engineer/idle/002",
+      "engineer/idle/003",
+      "engineer/idle/004",
+      "engineer/idle/005",
+      "engineer/idle/006",
+      "engineer/idle/007",
+      "engineer/idle/008",
+      "engineer/idle/009",
+      "engineer/idle/010",
+      "engineer/idle/011",
+      "engineer/idle/012",
+      "engineer/idle/013",
+      "engineer/idle/014",
+      "engineer/idle/015"
+    ]
+  },
+  "meta": {
+    "app": "diablow scripts/generate-sprites.js",
+    "image": "idle.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 726,
+      "h": 1102
+    },
+    "scale": "1",
+    "fps": 8,
+    "loop": true,
+    "character": "engineer",
+    "animation": "idle",
+    "key": "green",
+    "matte": "chroma",
+    "source": {
+      "video": "assets\\sprites\\engineer\\_work\\idle\\video.mp4",
+      "fps": 24,
+      "frames": [
+        0,
+        7,
+        14,
+        22,
+        29,
+        37,
+        44,
+        52,
+        59,
+        66,
+        74,
+        81,
+        89,
+        96,
+        104,
+        111
+      ],
+      "seconds": 5,
+      "speed": 2.5
+    },
+    "request": {
+      "model": "kling-2.5-turbo-pro",
+      "key": "green",
+      "duration": 5,
+      "prompt": "The character breathes slowly and shifts their weight in a relaxed idle stance, feet planted in place. Smooth 2D game sprite animation; the character's design, colors and art style stay exactly the same. The camera is completely static and locked off: no camera movement, no zoom, no pan. The character stays centered on the same spot and never leaves the frame. The background stays a perfectly flat, uniform, solid pure green (#00FF00) for the whole clip: no floor, no ground shadow, no lighting change, no scenery, no particles."
+    }
+  }
+}

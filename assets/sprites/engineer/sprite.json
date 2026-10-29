@@ -1,0 +1,9 @@
+{
+  "id": "engineer",
+  "name": "Engineer (slaythefile test)",
+  "image": "C:/sites/slaythefile/renderer/assets/art/characters/engineer.png",
+  "animations": [
+    { "name": "idle", "motion": "The character breathes slowly and shifts their weight in a relaxed idle stance, feet planted in place.", "frames": 16, "fps": 8, "cycle": true, "minCycle": 1.0, "scale": 0.62 },
+    { "name": "attack", "motion": "The character performs one quick, energetic attack with whatever they are holding, then returns to their starting stance.", "frames": 12, "fps": 15, "cycle": true, "minCycle": 0.8, "scale": 0.55 }
+  ]
+}

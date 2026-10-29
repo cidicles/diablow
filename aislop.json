@@ -1,0 +1,11 @@
+{
+  "slug": "diablow",
+  "name": "DIABLOW",
+  "tagline": "Night of the Risen — a torchlit survivors-style horde slasher. Every sprite, animation, tile and prop is AI-generated. Survive the graveyard.",
+  "tags": ["survivors", "arpg", "horde"],
+  "created": "2026-09-28",
+  "type": "static",
+  "build": "npm run build:web",
+  "dir": "web-build",
+  "thumbnail": "aislop-thumb.jpg"
+}
